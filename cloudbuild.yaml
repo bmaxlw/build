@@ -6,6 +6,6 @@ steps:
       - |
         echo subvar is ${_SUBVAR} 444555 test
 
-    timeout: 300s
-    options:
-      substitution_option: "ALLOW_LOOSE"
+timeout: 300s
+options:
+  substitution_option: "ALLOW_LOOSE"
